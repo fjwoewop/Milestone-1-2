@@ -1,0 +1,91 @@
+/* Gerneral styling */
+body{
+    margin: 0;
+    padding: 150px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.resume-container{
+    display: flex;
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0.0.0.0.1);
+}
+
+/* Left  Section styling  */
+.Left-section{
+    background-color: black;
+    border-right: 5px #e63946 solid;
+    color: white;
+}
+img{
+    border-radius: 5px;
+}
+p{
+    margin-left: 5%;
+    font-size: 18px;
+}
+.Left-section h3{
+    font-size: 20px;
+    padding: 3%;
+    padding-left: 24%;
+    margin: 20px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e63946;
+    color: white;
+}
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    margin: 10%;
+    border-radius: 50%;
+    border: 5px solid #e63946;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+/* Right Section Styling */
+.right-section{
+    padding: 20px;
+    width: 65%;
+}
+ul{
+    list-style-type: fil round;
+    padding: 10;
+    margin: 10px 0;
+}
+ul li{
+    margin: 5px 0;
+}
+button{
+    font-family: 'Arial',sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 30px;
+}
+h2{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px  5px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e63946;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+}
+h1{
+    font-size: 28px;
+    margin: 10px 0;
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+    text-align: center;
+    
+}
+button:hover{
+    background-color: #ff737c;
+}
